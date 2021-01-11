@@ -46,10 +46,7 @@ jobs:
       with:
         context: .
         tags: tesung30/myspring:latest
-        load: true
-
-    - name: Push
-        run: docker push tesung30/myspring:latest
+        push: true
 
     - name: Get current time
       uses: 1466587594/get-current-time@v2
