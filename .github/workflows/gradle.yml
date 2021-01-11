@@ -45,8 +45,8 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: .
-        push: true
         tags: tesung30/myspring:latest
+        load: true
 
     - name: Push
         run: docker push tesung30/myspring:latest
