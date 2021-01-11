@@ -22,7 +22,6 @@ jobs:
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-        registry: tesung30/myspring
 
     - name: Set up JDK
       uses: actions/setup-java@v1.4.3
