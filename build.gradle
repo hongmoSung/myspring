@@ -33,4 +33,5 @@ test {
 
 bootBuildImage {
 	imageName = "tesung30/myspring"
+	environment = ["BP_JVM_VERSION" : "11.*"]
 }
