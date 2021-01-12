@@ -9,7 +9,7 @@ public class SampleController {
 
     @GetMapping("/sample")
     public @ResponseBody String sample() {
-        return "sample";
+        return "수정 테스트";
     }
 
     @GetMapping("/sample2")
