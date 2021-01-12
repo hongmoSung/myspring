@@ -12,7 +12,7 @@ public class SampleController {
         return "webhook test";
     }
 
-        @GetMapping("/sample2")
+    @GetMapping("/sample2")
     public @ResponseBody String sample2() {
         return "sample2";
     }
